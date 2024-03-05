@@ -24,4 +24,4 @@ This project is a personal portfolio, but I welcome any feedback or suggestions 
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details.
 
 ### Project status
-![](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![](https://geps.dev/progress/20?dangerColor=800000&warningColor=ff9900&successColor=006600)
