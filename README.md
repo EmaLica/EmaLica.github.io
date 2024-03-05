@@ -21,7 +21,7 @@ Explore the projects by navigating through the website.
 This project is a personal portfolio, but I welcome any feedback or suggestions for improvement. Feel free to open an issue or submit a pull request if you have any ideas to share!
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details.
 
 ### Project status
 ![](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
