@@ -130,7 +130,10 @@ cmake-build-*/
 # IntelliJ
 out/
 consegne/
-.idea
+.idea\
+package-lock.json
+package.json
+node_modules
 
 ### Intellij+all Patch ###
 # Ignore everything but code style settings and run configurations
