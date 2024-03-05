@@ -72,6 +72,19 @@
                 repeatCount="indefinite" />
     </g>
 </svg>
-<script type="module" src="./src/scripts/main.js"></script>
+<script>
+    // Display loading screen for at least 3 seconds
+    setTimeout(() => {
+        // Remove loading screen after 3 seconds
+        const loadingScreen = document.querySelector('svg');
+        loadingScreen.remove();
+
+        // Start running main.js
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = './src/scripts/main.js';
+        document.body.appendChild(script);
+    }, 3000);
+</script>
 </body>
 </html>
