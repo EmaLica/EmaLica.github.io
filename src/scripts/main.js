@@ -3,7 +3,6 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-
 const container = document.getElementById('container');
 
 // Set up renderer
@@ -24,7 +23,6 @@ camera.lookAt(0, 0, 0); // Look at the center of the scene
 // Adjust camera FOV to zoom in further if needed
 camera.fov = 60; // Set a narrower field of view (in degrees) for a closer view
 camera.updateProjectionMatrix(); // Update the camera's projection matrix
-
 
 // Set up ambient light
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
