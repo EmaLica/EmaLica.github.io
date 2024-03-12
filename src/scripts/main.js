@@ -45,15 +45,15 @@ controls.mouseButtons = {
 const textureLoader = new THREE.TextureLoader();
 
 const textures = {
-    poster: textureLoader.load('src/scripts/utils/textures/poster_fsociety_baseColor.jpeg'),
-    pic1: textureLoader.load('src/scripts/utils/textures/pic-1_baseColor.png'),
-    phonetik: textureLoader.load('src/scripts/utils/textures/phonetik_baseColor.jpeg'),
-    material8: textureLoader.load('src/scripts/utils/textures/material_8_baseColor.jpeg')
+    poster: textureLoader.load('dist/assets/poster_fsociety_baseColor.jpeg'),
+    pic1: textureLoader.load('dist/assets/pic-1_baseColor.png'),
+    phonetik: textureLoader.load('dist/assets/phonetik_baseColor.jpeg'),
+    material8: textureLoader.load('dist/assets/material_8_baseColor.jpeg')
 };
 
 const loader = new GLTFLoader();
 loader.load(
-    'src/scripts/utils/scene.gltf',
+    'dist/scene.gltf',
     (gltf) => {
         // Once loaded, add the model to the scene
         const model = gltf.scene;
